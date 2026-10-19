@@ -81,7 +81,7 @@ Temas essenciais que o material base não aborda ou trata de forma superficial:
 .
 ├── index.html   # o guia completo (HTML, CSS, JS e o SQLite em WebAssembly embutidos)
 ├── README.md
-└── LICENSE      # opcional, veja “Licença”
+└── LICENSE      # MIT (código) + escopo das licenças e avisos de terceiros
 ```
 
 O arquivo tem cerca de 1,5 MB porque o motor do SQLite (WebAssembly) vai embutido nele, para o console funcionar sem rede.
@@ -123,11 +123,10 @@ Os bancos de exemplo (locadora e sebo) são fictícios.
 
 ## Licença
 
-Sugestão para quem quiser reutilizar:
-
-- **Textos e conteúdo didático do guia:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br), com atribuição e sem uso comercial.
-- **Código (HTML, CSS e JavaScript próprios):** [MIT](https://opensource.org/license/mit).
-- O **sql.js** embutido mantém a própria licença MIT.
+- **Código** (HTML, CSS e JavaScript escritos para o guia): [MIT](LICENSE).
+- **Textos e conteúdo didático** (explicações, exercícios, questões, diagramas): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br). Pode copiar e adaptar citando a autoria, sem uso comercial e mantendo a mesma licença.
+- **Material da Gran Faculdade:** não está incluído e não é coberto por nenhuma dessas licenças.
+- **Componentes de terceiros:** sql.js (MIT) e SQLite (domínio público), com os avisos no arquivo [LICENSE](LICENSE).
 
 ---
 
